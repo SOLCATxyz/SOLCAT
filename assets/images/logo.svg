@@ -1,0 +1,72 @@
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background Circle -->
+  <circle cx="100" cy="100" r="90" fill="url(#logoGradient)" />
+  <circle cx="100" cy="100" r="90" stroke="#F59E0B" strokeWidth="3" fill="none" />
+  
+  <!-- Cat Face Elements -->
+  <!-- Eyes -->
+  <ellipse cx="70" cy="85" rx="15" ry="20" fill="#F59E0B" />
+  <ellipse cx="130" cy="85" rx="15" ry="20" fill="#F59E0B" />
+  
+  <ellipse cx="70" cy="85" rx="8" ry="18" fill="#0F172A" />
+  <ellipse cx="130" cy="85" rx="8" ry="18" fill="#0F172A" />
+  
+  <circle cx="67" cy="78" r="4" fill="#fff" />
+  <circle cx="127" cy="78" r="4" fill="#fff" />
+  
+  <!-- Ears -->
+  <path d="M40,45 L70,70 L55,30 Z" fill="url(#logoGradient)" stroke="#F59E0B" strokeWidth="2" />
+  <path d="M160,45 L130,70 L145,30 Z" fill="url(#logoGradient)" stroke="#F59E0B" strokeWidth="2" />
+  
+  <!-- Nose -->
+  <path d="M95,105 L105,105 L100,112 Z" fill="#0F172A" />
+  
+  <!-- Mouth -->
+  <path d="M85,120 Q100,130 115,120" stroke="#F59E0B" strokeWidth="2" fill="none" />
+  
+  <!-- Whiskers -->
+  <line x1="60" y1="115" x2="30" y2="110" stroke="#64748B" strokeWidth="1.5" />
+  <line x1="60" y1="120" x2="30" y2="120" stroke="#64748B" strokeWidth="1.5" />
+  <line x1="60" y1="125" x2="30" y2="130" stroke="#64748B" strokeWidth="1.5" />
+  
+  <line x1="140" y1="115" x2="170" y2="110" stroke="#64748B" strokeWidth="1.5" />
+  <line x1="140" y1="120" x2="170" y2="120" stroke="#64748B" strokeWidth="1.5" />
+  <line x1="140" y1="125" x2="170" y2="130" stroke="#64748B" strokeWidth="1.5" />
+  
+  <!-- Circuit Lines -->
+  <path d="M30,60 L50,60" stroke="#EF4444" strokeWidth="2" />
+  <path d="M30,60 L30,80" stroke="#EF4444" strokeWidth="2" />
+  <circle cx="30" cy="60" r="2" fill="#EF4444" />
+  
+  <path d="M170,60 L150,60" stroke="#EF4444" strokeWidth="2" />
+  <path d="M170,60 L170,80" stroke="#EF4444" strokeWidth="2" />
+  <circle cx="170" cy="60" r="2" fill="#EF4444" />
+  
+  <path d="M60,150 L80,150" stroke="#EF4444" strokeWidth="2" />
+  <path d="M60,150 L60,130" stroke="#EF4444" strokeWidth="2" />
+  <circle cx="60" cy="150" r="2" fill="#EF4444" />
+  
+  <path d="M140,150 L120,150" stroke="#EF4444" strokeWidth="2" />
+  <path d="M140,150 L140,130" stroke="#EF4444" strokeWidth="2" />
+  <circle cx="140" cy="150" r="2" fill="#EF4444" />
+  
+  <!-- Solana Claw -->
+  <path d="M145,140 C160,130 170,120 175,100 C180,120 175,140 165,155 Z" fill="url(#clawGradient)" />
+  <path d="M155,145 C165,135 172,125 175,110 C178,125 175,140 168,152 Z" fill="url(#clawGradient)" />
+  <path d="M165,150 C172,142 177,135 180,120 C182,135 180,145 175,155 Z" fill="url(#clawGradient)" />
+  
+  <!-- Solana Symbol -->
+  <text x="165" y="135" fontSize="14" fontWeight="bold" fill="#7C3AED" transform="rotate(15, 165, 135)">S</text>
+  
+  <!-- Gradients -->
+  <defs>
+    <linearGradient id="logoGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stopColor="#0F172A" />
+      <stop offset="100%" stopColor="#1E293B" />
+    </linearGradient>
+    <linearGradient id="clawGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stopColor="#F59E0B" />
+      <stop offset="100%" stopColor="#EF4444" />
+    </linearGradient>
+  </defs>
+</svg> 

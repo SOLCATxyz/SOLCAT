@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>SOLCAT - Address Guardian</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <img src="icons/icon48.png" alt="SOLCAT Logo" class="logo">
+      <h1>SOLCAT Guardian</h1>
+    </div>
+    <div class="content">
+      <div class="search-box">
+        <input type="text" id="addressInput" placeholder="Enter Solana address...">
+        <button id="checkAddress">Check</button>
+      </div>
+      <div class="status-box">
+        <div id="addressStatus" class="hidden">
+          <h3>Address Status:</h3>
+          <p id="statusText"></p>
+          <div id="riskLevel"></div>
+        </div>
+      </div>
+      <div class="actions">
+        <button id="reportAddress" class="hidden">Report Suspicious</button>
+        <button id="viewDashboard">View Dashboard</button>
+      </div>
+    </div>
+    <div class="footer">
+      <a href="https://www.solcat.work" target="_blank">Website</a>
+      <a href="https://x.com/SOLCAT_xyz" target="_blank">Twitter</a>
+      <a href="https://github.com/SOLCATxyz/SOLCAT" target="_blank">GitHub</a>
+    </div>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html> 

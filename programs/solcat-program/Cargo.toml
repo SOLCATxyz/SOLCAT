@@ -1,0 +1,23 @@
+[package]
+name = "solcat-program"
+version = "0.1.0"
+edition = "2021"
+description = "SOLCAT - Solana Address Guardian Program"
+authors = ["SOLCAT Team"]
+
+[lib]
+crate-type = ["cdylib", "lib"]
+name = "solcat_program"
+
+[features]
+no-entrypoint = []
+no-idl = []
+no-log-ix-name = []
+cpi = ["no-entrypoint"]
+default = []
+
+[dependencies]
+solana-program = "1.17.0"
+anchor-lang = "0.28.0"
+borsh = "0.10.3"
+thiserror = "1.0.50" 
