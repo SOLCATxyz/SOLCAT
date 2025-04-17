@@ -1,12 +1,9 @@
 <div align="center">
-<h1 style="font-size: 2.5em;">SOLCAT</h1>
-</div>
+<h1>SOLCAT</h1>
+<img src="assets/images/logo.png" alt="SOLCAT Logo" width="250">
 
-<div align="center">
-  <img src="assets/images/logo.svg" alt="SOLCAT Logo" width="250">
-  
-  [![Website](https://img.shields.io/badge/Website-solcat.work-blue)](https://www.solcat.work)
-  [![Twitter](https://img.shields.io/badge/Twitter-@SOLCAT__xyz-blue)](https://x.com/SOLCAT_xyz)
+[![Website](https://img.shields.io/badge/Website-solcat.work-blue)](https://www.solcat.work)
+[![Twitter](https://img.shields.io/badge/Twitter-@SOLCAT__xyz-blue)](https://x.com/SOLCAT_xyz)
 </div>
 
 ## 🔑 Overview
